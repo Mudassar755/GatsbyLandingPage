@@ -22,19 +22,19 @@ import work1 from "../images/work1.jpg";
 import work3 from "../images/work3.jpg";
 import work4 from "../images/work5.jpg";
 import Layout from "../components/Layout";
-// import AOS from 'aos';
+import AOS from 'aos';
 // import "aos/dist/aos.css";
 
 // markup
 const IndexPage = () => {
-  //   React.useEffect(() => {
-  //     AOS.init({
-  //       duration: 1000,
-  //         delay: 50,
-  //         once: true
-  //     });
-  //     AOS.refresh();
-  // }, [])
+    React.useEffect(() => {
+      AOS.init({
+        duration: 1000,
+          delay: 50,
+          once: true
+      });
+      AOS.refresh();
+  }, [])
   return (
     <div className="full-waypper">
       <section className="full-waypper-area-about full-waypper-area-home">
@@ -63,25 +63,31 @@ const IndexPage = () => {
                   </div>
                 </div>
 
+                {/* <i class="fab fa-facebook-f"></i> Link One</a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i> Link Two</a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i> Link Three</a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"> */}
                 <div className="col-lg-6 text-center">
+                  <div className="logo-icons">
                   <div className="see-more" data-aos="fade-up">
                     <img src={seeMoreWhite} alt="Hero Vactor" />
                   </div>
-                  <div className="social-links text-white mt-5 pt-5">
+                  <div className="social-links text-white mt-lg-5 pt-lg-5">
                     <ul className="text-left">
-                      <li className="mt-2">Twitter</li>
-                      <li className="mt-2">Instagram</li>
-                      <li className="mt-2">LinkedIn</li>
+                      <li className="mt-2"><i class="fab fa-facebook-f"></i> Twitter</li>
+                      <li className="mt-2"><i class="fab fa-instagram"></i> Instagram</li>
+                      <li className="mt-2"><i class="fab fa-linkedin-in"></i> LinkedIn</li>
                     </ul>
                   </div>
-                  <div className="hero-content mt-5 text-left text-white px-5">
-                    <p className="mt-3">
+                  </div>
+                  <div className="hero-content mt-5 text-left text-white px-lg-5">
+                    <p className="mt-lg-3">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Quo, placeat temporibus obcaecati adipisci sit dolorem
                       asperiores reprehenderit tenetur fugit eius, nemo nesciunt
                       officia exercitationem ab ad est aspernatur eum iste.
                     </p>
-                    <p className="mt-3">
+                    <p className="mt-lg-3">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Quo, placeat temporibus obcaecati adipisci sit dolorem
                       asperiores reprehenderit tenetur fugit eius, nemo nesciunt
@@ -98,7 +104,7 @@ const IndexPage = () => {
           {/*===============================================
                         Start We identify Area Design
             ================================================ */}
-          <section className="work_seaction_area mt-5">
+          <section className="work_seaction_area mt-lg-5 pb-sm-1">
             <div className="container">
               <div className="row my-4">
                 <div className="col-lg-5">
@@ -158,7 +164,7 @@ const IndexPage = () => {
                         Start Cybersecurity Solutions Area Design
             ================================================ */}
 
-          <div className="container mt-5">
+          <div className="container mt-lg-5">
             <div className="row">
               {/* Hero Image */}
               <div className="col-12 text-center">
@@ -170,7 +176,7 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <section className="project_seaction_area mt-5">
+          <section className="project_seaction_area mt-lg-5">
             <div className="container">
               <div className="row my-4">
                 <div className="col-12">
@@ -202,7 +208,7 @@ const IndexPage = () => {
             </div>
           </section>
 
-          <div className="container mt-5">
+          <div className="container mt-lg-5">
             <div className="row">
               {/* Hero Image */}
               <div className="col-12 text-center">
