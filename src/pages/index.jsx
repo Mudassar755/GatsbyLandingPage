@@ -62,7 +62,7 @@ const IndexPage = () => {
         					Start Hero Content Area Design
                 ================================================ */}
           <section className="hero_content_area">
-            <div className="container">
+            <div className="container pt-5">
               <div className="row mb-3" data-aos="fade-up">
                 <div className="col-lg-6" >
                   <div className="hero_title">
