@@ -11,7 +11,7 @@ const Navbar = () => {
   });
   return (
     <header class="header_area">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-lg-3">
             <div class="logo">
@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
 
         {sideMenuOpen && (
-          <div className="sideMenu">
+          <div className="sideMenu" data-aos="fade-left">
             <div className="row">
               <div className="col">
                 <div class="side_menu_area">

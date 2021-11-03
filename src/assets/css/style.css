@@ -198,6 +198,34 @@ a:hover {
 /*Font*/
 
 @font-face {
+  font-family: "AndersonGrotesk";
+  src: local("AndersonGrotesk"), url(../fonts/AndersonGrotesk.otf) format("opentype");
+}
+@font-face {
+  font-family: "AndersonGrotesk-Bold";
+  src: local("AndersonGrotesk-Bold"), url(../fonts/AndersonGrotesk-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "AndersonGrotesk-Black";
+  src: local("AndersonGrotesk-Black"), url(../fonts/AndersonGrotesk-Black.otf) format("opentype");
+}
+@font-face {
+  font-family: "AndersonGrotesk-BoldOblique";
+  src: local("AndersonGrotesk-BoldOblique"), url(../fonts/AndersonGrotesk-BoldOblique.otf) format("opentype");
+}
+@font-face {
+  font-family: "AndersonGrotesk-Oblique";
+  src: local("AndersonGrotesk-Oblique"), url(../fonts/AndersonGrotesk-Oblique.otf) format("opentype");
+}
+@font-face {
+  font-family: "AndersonGrotesk-Ultrabold";
+  src: local("AndersonGrotesk-Ultrabold"), url(../fonts/AndersonGrotesk-Ultrabold.otf) format("opentype");
+}
+@font-face {
+  font-family: "AndersonGrotesk-UltraboldOblique";
+  src: local("AndersonGrotesk-UltraboldOblique"), url(../fonts/AndersonGrotesk-UltraboldOblique.otf) format("opentype");
+}
+@font-face {
   font-family: "Avenir Next LT Pro";
   src: url("../fonts/AvenirNextLTPro-It.woff2") format("woff2"),
     url("../fonts/AvenirNextLTPro-It.woff") format("woff");
@@ -413,6 +441,8 @@ img {
   right: 13px;
   top: 2px;
   display: none !important;
+  background: transparent;
+  border: 0px;
 }
 .hero_content_area {
   padding-bottom: 40px;
@@ -421,53 +451,34 @@ img {
 .hero_image img {
   width: 100%;
 }
+.hero_title{
+color: #FFF;
+}
+.hero_title h1{
+font-size: 70px;
+font-family: AndersonGrotesk-Bold;
+}
 
-.hero_content_text {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.hero_content h1 {
-  font-family: "Avenir Next LT Pro";
-  font-weight: 700;
-  font-size: 51px;
-  line-height: 61px;
-  color: #fff;
-}
-.hero_content p {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 500;
-  color: #fff;
-  margin-bottom: 11px;
-}
-.hero_content p {
+#circular-text {
   position: relative;
+  background: transparent;
+  color: #FFF;
+  border-radius: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  padding: 20px;
 }
-.hero_content p::after {
+#circular-text span {
   position: absolute;
-  content: "";
-  background: #019ee2;
-  width: 9px;
-  height: 9px;
-  left: -18px;
-  border-radius: 50%;
-  top: 4px;
+  transform-origin: top left;
 }
-.hero_content p {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 500;
-  color: #fff;
-  margin-bottom: 11px;
-  margin-left: 18px;
-}
+
 .see-more img {
   width: 120px !important;
 }
 .social-links {
   display: flex;
   justify-content: center;
+  color: #FFF;
 }
 .social-links ul {
   text-align: left;
@@ -479,12 +490,7 @@ img {
   padding-bottom: 120px;
   background-color: #ffffff !important;
 }
-.work_seaction_area .hero_content p {
-  color: #000000;
-  font-size: 16px;
-  line-height: 19px;
-  margin-bottom: 13px;
-}
+
 .button {
   margin-top: 25px;
 }
@@ -523,19 +529,6 @@ img {
   transition: 0.5s;
 }
 
-.hero_content small {
-  color: #019ee2;
-  font-size: 16px;
-  line-height: 19px;
-  font-weight: 700;
-}
-.hero_content h2 {
-  font-family: "Avenir Next LT Pro";
-  font-weight: 700;
-  color: #000000;
-  font-size: 73px;
-  line-height: 88px;
-}
 .welcome_image {
   max-width: 479px;
   width: 100%;
@@ -750,14 +743,7 @@ textarea {
   position: relative;
   z-index: 1;
 }
-.hero_content_home h1 {
-  font-family: "Avenir Next LT Pro";
-  font-weight: 700;
-  font-size: 85px;
-  line-height: 95px;
-  color: #fff;
-  text-transform: uppercase;
-}
+
 .button_home {
   margin-top: 25px;
 }
@@ -794,20 +780,20 @@ textarea {
 .hero_image.hero_image_home {
   margin-top: 0px;
 }
-.hero_content_home {
-  padding: 50px;
+.hero_content {
+  color: #FFF;
+  font-family: AndersonGrotesk;
+}
+.hero_content p {
+  margin-top: 10px;
 }
 
-.hero_home_content {
-}
 .hero_home_content h3 {
   font-size: 31px;
   line-height: 38px;
   padding-bottom: 30px;
   color: #4b286d;
   font-weight: 700;
-}
-.hero_home_content p {
 }
 
 .home_Cybersecurity .container .row {
@@ -818,6 +804,7 @@ textarea {
 
 .work_seaction_title h1 {
   font-size: 50px;
+  font-family: AndersonGrotesk-Bold;
 }
 .work_seaction_content {
   display: flex;
@@ -826,6 +813,7 @@ textarea {
 .work_seaction_content p {
   width: 275px;
   margin-left: 10em;
+  font-family: AndersonGrotesk;
 }
 /* .works-col {
   height: 850px;
@@ -851,10 +839,39 @@ textarea {
 .project_seaction_area h3 {
   font-size: 24px;
   margin: 15px;
+  font-family: AndersonGrotesk-Bold;
 }
 .project_seaction_title h1 {
   font-size: 75px;
+  font-family: AndersonGrotesk-Bold;
 }
+.project_h_repeat{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.project_h_repeat h1{
+  color: black;
+	font-size: 60px;
+  font-family: AndersonGrotesk-Bold;
+	-webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;;
+}
+
+/* .project_h_repeat{
+  animation: 10s linear 10s infinite running run;
+  -webkit-animation: 10s linear 10s infinite running run;
+  -moz-animation: 10s linear 10s infinite running run;
+  -o-animation:10s linear 10s infinite running run;
+  -ms-animation:10s linear 10s infinite running run;
+}    */
+@keyframes run { from { margin-left: -50%; } to { margin-left: 100%; }  }
+@-webkit-keyframes run { from { margin-left: -50%; } to { margin-left: 100%; }  }
+@-moz-keyframes run { from { margin-left: -50%; } to { margin-left: 100%; }  }
+@-o-keyframe run { from { margin-left: -50%; } to { margin-left: 100%; }  }
+@-ms-keyframes run { from { margin-left: -50%; } to { margin-left: 100%; }  }
+@-ms-keyframes run { from { margin-left: -50%; } to { margin-left: 100%; }  }
+
 /* .title_hero h3 {
   font-size: 31px;
   line-height: 38px;
@@ -981,9 +998,9 @@ textarea {
   z-index: 1;
 }
 
-.hero_content_home p {
+/* .hero_content_home p {
   color: #fff;
-}
+} */
 
 .hero_content_product {
   padding-bottom: 111px;
@@ -992,9 +1009,9 @@ textarea {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.hero_content_product .hero_content_home {
+/* .hero_content_product .hero_content_home {
   padding-top: 270px;
-}
+} */
 .product_singel_item {
 }
 .product_singel_item img {
@@ -1049,7 +1066,7 @@ textarea {
   z-index: 1;
 }
 
-.hero_content.hero_content_contact p {
+/* .hero_content.hero_content_contact p {
   margin-left: 0;
 }
 .hero_content.hero_content_contact p::after {
@@ -1065,8 +1082,8 @@ textarea {
   line-height: 1.2;
   color: #551598;
   padding-bottom: 8px;
-}
-.contact_make_secion_area {
+} 
+ .contact_make_secion_area {
   padding-top: 14px;
   padding-bottom: 30px;
 }
@@ -1077,7 +1094,7 @@ textarea {
 
 .hero_content.make_contact_c p::after {
   background: #551598;
-}
+} */
 .c_info {
   display: -webkit-box;
   display: -ms-flexbox;

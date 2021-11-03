@@ -6,13 +6,13 @@ const Footer = () => {
         <footer class="footer_area">
                 <div class="container">
                     <div class="row px-3">
-                        <div class="col-lg-3 col-md-3 col-6">
+                        <div class="col-lg-3 col-md-3 col-6" data-aos="fade-up">
                             <div class="footer_social text-left">
                                 <p>GUILLERMO GASCON</p>
                                 <input type="email" name="email" placeholder="Enter Email" className="mw-100 " />
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-6">
+                        <div class="col-lg-3 col-md-3 col-6" data-aos="fade-up">
                         <div class="footer_social text-left">
                                 <p>GUILLERMO GASCON</p>
                                 <ul className="pl-4">
@@ -24,7 +24,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-6">
+                        <div class="col-lg-3 col-md-3 col-6" data-aos="fade-up">
                         <div class="footer_social text-left">
                                 <p>GUILLERMO GASCON</p>
                                 <ul className="pl-4">
@@ -36,7 +36,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-6">
+                        <div class="col-lg-3 col-md-3 col-6" data-aos="fade-up">
                             <div class="text-left">
                                 {/* <p>We Accept</p> */}
                                 <img src={seeMore} alt="Welcome Vactor" width="100" />
