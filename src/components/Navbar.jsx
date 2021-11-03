@@ -19,19 +19,18 @@ const Navbar = () => {
                 {/* <img src={logo} /> */}
                 GUILLERMO G.
               </Link>
-              {!sideMenuOpen && (
+              {/* {!sideMenuOpen && (
                 <button
                   class="nav-bars bg-transparent border-0"
                   onClick={() => setSideMenuOpen(true)}
                 >
                   <i class="fas fa-bars"></i>
                 </button>
-              )}
+              )} */}
             </div>
           </div>
           <div class="col-lg-9">
-            {/* -- Main Menu -- */}
-            <div class="menu_area">
+            {/* <div class="menu_area">
               <ul>
                 <li>
                   <Link to="/">Inicio</Link>
@@ -43,7 +42,7 @@ const Navbar = () => {
                   <Link to="/">Contacto</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
 

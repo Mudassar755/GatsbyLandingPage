@@ -428,6 +428,11 @@ img {
   float: left;
   width: 119px;
   color: #fff;
+  text-decoration: none;
+}
+.logo a:hover {
+  text-decoration: none;
+  color: #FFF;
 }
 
 .nav-bars .fas.fa-bars {
