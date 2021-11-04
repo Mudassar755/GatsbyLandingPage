@@ -421,6 +421,55 @@ img {
 }
 .hero_image {
   margin-top: 30px;
+  position: relative;
+  height: 500px;
+}
+.hero-img1{
+  position: absolute;
+  /* width: 250px; */
+  /* height: 250px; */
+  z-index: 1;
+  top: 70px;
+}
+.hero-img1 img{
+ width: 100%;
+ height: 100%;
+}
+.hero-img2{
+  position: absolute;
+  /* width: 250px; */
+  /* height: 250px; */
+  z-index: 1;
+  left: 150px;
+}
+.hero-img2 img{
+ width: 100%;
+ height: 100%;
+}
+.hero-img3{
+  position: absolute;
+  /* width: 250px; */
+  /* height: 250px; */
+  z-index: 1;
+  right: 50px;
+  top: 120px;
+  
+}
+.hero-img3 img{
+ width: 100%;
+ height: 100%;
+}
+.hero-img4{
+  position: absolute;
+  /* width: 250px; */
+  /* height: 250px; */
+  z-index: 1;
+  left: 65px;
+  top: 260px;
+}
+.hero-img4 img{
+ width: 100%;
+ height: 100%;
 }
 .logo a {
   overflow: hidden;
@@ -460,7 +509,7 @@ img {
 color: #FFF;
 }
 .hero_title h1{
-font-size: 70px;
+font-size: 120px;
 font-family: AndersonGrotesk-Bold;
 }
 
@@ -565,6 +614,13 @@ font-family: AndersonGrotesk-Bold;
   padding: 0px 100px;
 }
 
+.submit-btn{
+  background: transparent;
+  border: 0px;
+  top: 30%;
+  color: #fff;
+  cursor: pointer;
+}
 /*Home page Css*/
 
 .full-waypper-area-about.full-waypper-area-home {

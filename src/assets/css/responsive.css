@@ -7,6 +7,10 @@
 	.hero_content_area.hero_content_area_contact {
 		padding-bottom: 101px;
 	}
+	/* .hero_content{
+		padding-left: 5em;
+		padding-right: 5em;
+	} */
 }
 
 @media all and (max-width:1245px){
@@ -14,6 +18,10 @@
 		font-size: 19px;
 		margin-left: 24px;
 	}
+	/* .hero_content{
+		padding-left: 5em;
+		padding-right: 5em;
+	} */
 }
 
 
@@ -72,6 +80,10 @@
 	.link_button a {
 		width: 100%;
 	}
+	/* .hero_content{
+		padding-left: 5em;
+		padding-right: 5em;
+	} */
 }
 
 @media all and (min-width:992px){
@@ -80,6 +92,10 @@
 		display: -ms-flexbox !important;
 		display: flex !important;
 	}
+	/* .hero_content{
+		padding-left: 5em;
+		padding-right: 5em;
+	} */
 }
 
 @media all and (max-width:991px){
@@ -105,6 +121,10 @@
 	.nav-bars {
 	  display: block !important;
 	}
+	/* .hero_content{
+		padding-left: 5em;
+		padding-right: 5em;
+	} */
 	.hero_content_text {
 		position: inherit;
 		padding-top: 50px;
