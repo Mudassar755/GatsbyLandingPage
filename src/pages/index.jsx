@@ -90,7 +90,7 @@ const IndexPage = () => {
                 </div>
               </div>
               <div className="row my-3" data-aos="fade-up">
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6 col-12">
                   <div className="hero_content">
                     <p>
                       ¡Hola! Soy Guillermo Gascón, SEO afincado en Zaragoza con
@@ -99,7 +99,7 @@ const IndexPage = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6 col-12">
                   <div className="social-links text-white">
                     <ul className="text-left">
                       <li className="mt-2">
@@ -134,7 +134,7 @@ const IndexPage = () => {
                     {/* <img src={heroImg} alt="" /> */}
                   </div>
                 </div>
-                <div className="col-lg-5 text-center py-lg-5">
+                <div className="col-lg-5 mt-3 text-center py-lg-5">
                   {/* <div className="logo-icons">
                     <div className="see-more" data-aos="fade-up">
                       <img src={contactLight} alt="Hero Vactor" />

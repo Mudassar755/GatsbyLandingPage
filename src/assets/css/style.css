@@ -426,7 +426,7 @@ img {
 }
 .hero-img1{
   position: absolute;
-  /* width: 250px; */
+  width: 40%;
   /* height: 250px; */
   z-index: 1;
   top: 70px;
@@ -437,7 +437,7 @@ img {
 }
 .hero-img2{
   position: absolute;
-  /* width: 250px; */
+  width: 40%;
   /* height: 250px; */
   z-index: 1;
   left: 150px;
@@ -448,7 +448,7 @@ img {
 }
 .hero-img3{
   position: absolute;
-  /* width: 250px; */
+  width: 40%;
   /* height: 250px; */
   z-index: 1;
   right: 50px;
@@ -461,7 +461,7 @@ img {
 }
 .hero-img4{
   position: absolute;
-  /* width: 250px; */
+  width: 40%;
   /* height: 250px; */
   z-index: 1;
   left: 65px;
@@ -613,13 +613,16 @@ font-family: AndersonGrotesk-Bold;
   margin-left: auto;
   padding: 0px 100px;
 }
-
+.footer-logo{
+  text-align: left;
+}
 .submit-btn{
   background: transparent;
   border: 0px;
   top: 30%;
   color: #fff;
   cursor: pointer;
+  right: 0px;
 }
 /*Home page Css*/
 

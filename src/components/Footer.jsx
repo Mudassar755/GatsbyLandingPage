@@ -73,8 +73,8 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 col-6" data-aos="fade-up">
-            <div class="text-left">
+          <div class="col-lg-2 col-md-2 col-12" data-aos="fade-up">
+            <div class="footer-logo">
               {/* <p>We Accept</p> */}
               <a href="#" className="contact-btn">
                 <img src={contact} alt="Welcome Vactor" width="100" />
